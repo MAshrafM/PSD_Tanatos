@@ -1,0 +1,24 @@
+/* common styles */
+$main-color: #f7600e;
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.upper{
+  text-transform: uppercase;
+}
+
+.main-color{
+  color: $main-color;
+}
+
+.main-background{
+  background-color: $main-color;
+}
+/* end common styles */
