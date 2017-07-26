@@ -7,6 +7,16 @@ body{
 .container{
   width: 1200px;
   margin: auto;
+  position: relative;
+}
+
+.table{
+  height: 100%;
+  display: table;
+}
+
+.table-row{
+  display: table-row;
 }
 
 .text-center{
