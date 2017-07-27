@@ -1,0 +1,37 @@
+/* Features */
+.features{
+  padding: 80px 0;
+  overflow: hidden;
+  .box{
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+    &:last-child{
+      margin-right: 0;
+    }
+    i{
+      color: $main-color;
+      border: 1px solid #ccc;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      line-height: 120px;
+      transition: all .5s ease-in-out;
+      &:hover{
+        background-color: $main-color;
+        border-color: $main-color;
+        color: #fff;
+      }
+    }
+    h3{
+      text-transform: uppercase;
+      font-weight: normal;
+      color: #505050;
+    }
+    p{
+      line-height: 1.9;
+      color: #888;
+    }
+  }
+}
+/* End Features */
