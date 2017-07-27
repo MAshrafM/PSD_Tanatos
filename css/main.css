@@ -391,7 +391,8 @@ template {
 
 /* common styles */
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  height: 3000px; }
 
 .container {
   width: 1200px;
@@ -470,5 +471,12 @@ header {
       text-align: center;
       width: 100%;
       padding: 20px 0; }
+      header .overlay .arrow i {
+        border: 2px solid #787878;
+        border-radius: 50%;
+        height: 33px;
+        width: 33px;
+        line-height: 33px;
+        cursor: pointer; }
 
 /* End Header Section */
