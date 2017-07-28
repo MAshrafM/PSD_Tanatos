@@ -1,0 +1,45 @@
+/* Subscribe */
+#subscribe{
+  background:{
+    image: url('../img/subscribebg.jpg');
+    size: cover;
+    repeat: no-repeat;
+    position: center center;
+  }
+  height: 250px;
+  form{
+    padding: 100px 0;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    input{
+      height: 37px;
+      line-height: 37px;
+      padding: 0px 10px;
+      border: none;
+      border-radius: 10px;
+      width: 320px;
+      font-size: 20px;
+      position: relative;
+      top: 2px;
+      &:focus{
+        border:none;
+      }
+      @include placeholder{
+        font-size: 14px;
+      }
+    }
+    button{
+      padding: 10px;
+      width: 200px;
+      background-color: $main-color;
+      border: none;
+      color: #fff;
+      border-radius: 10px;
+      margin-left: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+}
+/* End Subscribe */
