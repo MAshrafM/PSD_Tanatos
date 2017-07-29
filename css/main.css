@@ -423,6 +423,9 @@ body {
 .main-background {
   background-color: #f7600e; }
 
+.hidden {
+  display: none; }
+
 /* end common styles */
 /* Header Section */
 header {
@@ -464,7 +467,8 @@ header {
     transition: all .5s ease-in-out; }
     header .buttons button:hover {
       background-color: #f7600e;
-      border-color: #f7600e; }
+      border: 1px solid #f7600e;
+      color: #fff; }
   header .arrow {
     position: absolute;
     bottom: 0;
@@ -501,7 +505,7 @@ header {
       transition: all .5s ease-in-out; }
       #features .box i:hover {
         background-color: #f7600e;
-        border-color: #f7600e;
+        border: 1px solid #f7600e;
         color: #fff; }
     #features .box h3 {
       text-transform: uppercase;
@@ -556,3 +560,29 @@ header {
       cursor: pointer; }
 
 /* End Subscribe */
+/* Our Work */
+#our-work {
+  padding: 50px 0; }
+  #our-work h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0; }
+  #our-work p {
+    line-height: 2;
+    margin: 10px 0 40px 0; }
+  #our-work .show-more {
+    background: transparent;
+    border: 1px solid #ccc;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #555;
+    cursor: pointer;
+    transition: all .5s ease-in-out; }
+    #our-work .show-more:hover {
+      background-color: #f7600e;
+      border: 1px solid #f7600e;
+      color: #fff; }
+
+/* End */

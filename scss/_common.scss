@@ -7,6 +7,14 @@ $main-color: #f7600e;
   &::-moz-placeholder          {@content}
   &:-ms-input-placeholder      {@content}  
 }
+@mixin hover-state{
+  transition: all .5s ease-in-out;
+  &:hover{
+    background-color: $main-color;
+    border: 1px solid $main-color;
+    color: #fff;
+  }
+}
 
 body{
   font-family: 'Open Sans', sans-serif;
@@ -46,5 +54,9 @@ body{
 
 .main-background{
   background-color: $main-color;
+}
+
+.hidden{
+  display: none;
 }
 /* end common styles */
