@@ -10,4 +10,8 @@
       scrollTop: $("#features").offset().top
     }, 1000);
   });
+  // Show hidden items
+  $(".show-more").click(function(){
+    $("#our-work .hidden").fadeIn(2000);
+  });
 })();
