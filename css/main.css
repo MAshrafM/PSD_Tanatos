@@ -631,3 +631,31 @@ header {
             color: #f7600e; }
 
 /* End */
+/* Testimonial */
+#testimonial {
+  background-image: url("../img/testimonilbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #testimonial .client {
+    padding: 50px 0;
+    color: #fff;
+    font-size: 20px; }
+    #testimonial .client img {
+      border-radius: 50%; }
+    #testimonial .client p {
+      line-height: 2;
+      font-style: italic; }
+  #testimonial i {
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer; }
+    #testimonial i:hover {
+      color: #f7600e; }
+  #testimonial .fa-chevron-right {
+    right: 0; }
+  #testimonial .fa-chevron-left {
+    left: 0; }
+
+/* End Testimonial */

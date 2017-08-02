@@ -1,0 +1,40 @@
+/* Testimonial */
+#testimonial{
+  background:{
+    image: url('../img/testimonilbg.jpg');
+    size: cover;
+    repeat: no-repeat;
+    position: center center;
+  }
+  
+  .client{
+    padding: 50px 0;
+    color: #fff;
+    font-size: 20px;
+    
+    img{
+      border-radius: 50%;
+    }
+    p{
+      line-height: 2;
+      font-style: italic;
+    }
+  }
+  i{
+    position: absolute;
+    top: 50%;
+    color: #999;
+    cursor: pointer;
+    &:hover{
+      color: $main-color;
+    }
+  }
+  .fa-chevron-right{
+    right: 0;
+  }
+  .fa-chevron-left{
+    left: 0;
+  }
+  
+}
+/* End Testimonial */
