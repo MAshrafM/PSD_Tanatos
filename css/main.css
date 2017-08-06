@@ -659,3 +659,51 @@ header {
     left: 0; }
 
 /* End Testimonial */
+/* Our Team Section */
+#our-team {
+  padding: 50px 0; }
+  #our-team h2 {
+    font-size: 35px;
+    margin-bottom: 0; }
+  #our-team p {
+    margin: 10px 0 40px 0;
+    line-height: 2;
+    color: #666;
+    font-size: 20px; }
+  #our-team .team-container {
+    overflow: hidden; }
+    #our-team .team-container .team-member {
+      float: left;
+      width: 24%;
+      margin-left: 1%;
+      overflow: hidden;
+      color: #888;
+      transition: all 1s ease-in-out; }
+      #our-team .team-container .team-member p {
+        font-size: 15px; }
+      #our-team .team-container .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        filter: gray;
+        filter: grayscale(1); }
+      #our-team .team-container .team-member .social-icons i {
+        background-color: #9da1a0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 50%; }
+      #our-team .team-container .team-member:hover {
+        color: #555; }
+        #our-team .team-container .team-member:hover img {
+          filter: none;
+          filter: grayscale(0); }
+        #our-team .team-container .team-member:hover .social-icons .fa-facebook {
+          background-color: #3b5998; }
+        #our-team .team-container .team-member:hover .social-icons .fa-twitter {
+          background-color: #55ACEE; }
+        #our-team .team-container .team-member:hover .social-icons .fa-google-plus {
+          background-color: #DC4E41; }
+
+/* End Our Team */

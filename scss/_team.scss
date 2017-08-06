@@ -13,11 +13,52 @@
   }
   
   .team-container{
-    
+    overflow: hidden;
     .team-member{
+      float: left;
+      width: 24%;
+      margin-left: 1%;
+      overflow: hidden;
+      color: #888;
+      transition: all 1s ease-in-out;
+      p{
+        font-size: 15px;
+      }
       
+      img{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        filter: gray;
+        filter: grayscale(1);
+      }
       .social-icons{
-      
+        i{
+          background-color: #9da1a0;
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          color: #fff;
+          border-radius: 50%;
+        }
+      }
+      &:hover{
+        color: #555;
+        img{
+          filter: none;
+          filter: grayscale(0);
+        }
+        .social-icons{
+          .fa-facebook{
+            background-color: #3b5998;
+          }
+          .fa-twitter{
+            background-color: #55ACEE;
+          }
+          .fa-google-plus{
+            background-color: #DC4E41;
+          }
+        }
       }
     }
   }
