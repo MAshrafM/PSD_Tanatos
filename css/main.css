@@ -390,6 +390,9 @@ template {
   display: none; }
 
 /* common styles */
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   height: 3000px; }
@@ -707,3 +710,66 @@ header {
           background-color: #DC4E41; }
 
 /* End Our Team */
+/** Contact Section **/
+#contact {
+  background-image: url("../img/contactbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #contact .overlay {
+    padding: 50px 0;
+    color: #fff; }
+  #contact h2 {
+    font-size: 35px; }
+  #contact form {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden; }
+    #contact form input[type="text"], #contact form input[type="email"] {
+      width: 48%;
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 10px; }
+    #contact form input[type="text"] {
+      float: left; }
+    #contact form input[type="email"] {
+      float: right; }
+    #contact form textarea {
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      height: 140px;
+      border: 1px solid #ccc;
+      border-radius: 10px; }
+    #contact form .info {
+      overflow: hidden;
+      margin-top: 10px; }
+      #contact form .info button {
+        float: left;
+        padding: 10px;
+        width: 200px;
+        background-color: #f7600e;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer; }
+      #contact form .info .form-icons {
+        float: right; }
+        #contact form .info .form-icons i {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          border-radius: 50%; }
+        #contact form .info .form-icons .fa-facebook {
+          background-color: #3b5998; }
+        #contact form .info .form-icons .fa-twitter {
+          background-color: #55ACEE; }
+        #contact form .info .form-icons .fa-google-plus {
+          background-color: #DC4E41; }
+
+/** End Contact Section **/

@@ -16,6 +16,9 @@ $main-color: #f7600e;
   }
 }
 
+* {
+  box-sizing: border-box;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   height: 3000px;

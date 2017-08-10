@@ -7,5 +7,78 @@
     position: center center;
   }
   
+  .overlay{
+    padding: 50px 0;
+    color: #fff;
+  }
+  h2{
+    font-size: 35px;
+  }
+  form{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+    
+    input[type="text"],input[type="email"]{
+      width: 48%;
+      padding: 0 10px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    input[type="text"]{
+      float: left;
+    }
+    input[type="email"]{
+      float: right;
+    }
+    textarea{
+      margin-top: 20px;
+      width: 100%;
+      padding: 10px;
+      height: 140px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    
+    .info{
+      overflow: hidden;
+      margin-top: 10px;
+      
+      button{
+        float: left;
+        padding: 10px;
+        width: 200px;
+        background-color: $main-color;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      .form-icons{
+        float: right;
+        i{
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          border-radius: 50%;
+        }
+        .fa-facebook{
+          background-color: #3b5998;
+        }
+        .fa-twitter{
+          background-color: #55ACEE;
+        }
+        .fa-google-plus{
+          background-color: #DC4E41;
+        }
+      }
+    }
+  }
 }
 /** End Contact Section **/
