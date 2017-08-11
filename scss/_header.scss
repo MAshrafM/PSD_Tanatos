@@ -63,11 +63,25 @@ header{
     i{
       border: 2px solid #787878;
       border-radius: 50%;
-      height: 33px;
-      width: 33px;
-      line-height: 33px;
+      height: 40px;
+      width: 40px;
+      /*line-height: 32px;*/
+      animation-name: jump;
+      animation-duration: .7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
       cursor: pointer;
     }
+  }
+}
+
+@keyframes jump{
+  from{
+    line-height: 25px;
+  }
+  to{
+    line-height: 45px;
   }
 }
 /* End Header Section */

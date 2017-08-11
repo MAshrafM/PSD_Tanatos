@@ -392,10 +392,11 @@ template {
 /* common styles */
 * {
   box-sizing: border-box; }
+  *:focus {
+    outline: none; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  height: 3000px; }
+  font-family: 'Open Sans', sans-serif; }
 
 .container {
   width: 1200px;
@@ -482,10 +483,21 @@ header {
     header .arrow i {
       border: 2px solid #787878;
       border-radius: 50%;
-      height: 33px;
-      width: 33px;
-      line-height: 33px;
+      height: 40px;
+      width: 40px;
+      /*line-height: 32px;*/
+      animation-name: jump;
+      animation-duration: .7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
       cursor: pointer; }
+
+@keyframes jump {
+  from {
+    line-height: 25px; }
+  to {
+    line-height: 45px; } }
 
 /* End Header Section */
 /* Features */
@@ -773,3 +785,15 @@ header {
           background-color: #DC4E41; }
 
 /** End Contact Section **/
+/** Footer Section **/
+footer {
+  background-color: #3b434c;
+  color: #fff;
+  overflow: hidden;
+  padding: 20px 0; }
+  footer .copy {
+    float: left; }
+  footer .design {
+    float: right; }
+
+/** End Footer **/

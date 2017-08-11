@@ -18,10 +18,12 @@ $main-color: #f7600e;
 
 * {
   box-sizing: border-box;
+  &:focus{
+    outline: none;
+  }
 }
 body{
   font-family: 'Open Sans', sans-serif;
-  height: 3000px;
 }
 .container{
   width: 1200px;

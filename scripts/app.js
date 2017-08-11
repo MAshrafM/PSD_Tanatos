@@ -1,13 +1,28 @@
 'use strict';
 (function(){
   //Trigger Nice Scroll Plugin
-  $("html").niceScroll();
+  $("html").niceScroll({
+    cursorcolor: '#f7600e',
+    cursorwidth: 10,
+    cursorborderradius: 0,
+    cursorborder: '1px solid #f7600e'
+  });
   //Change Header height
   $("header").height($(window).height());
   //Scroll to features
   $("header .arrow i").click(function(){
     $("html, body").animate({
       scrollTop: $("#features").offset().top
+    }, 1000);
+  });
+  $(".hire-us").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#our-team").offset().top
+    }, 1000);
+  });
+  $(".worx").click(function(){
+    $("html, body").animate({
+      scrollTop: $("#our-work").offset().top
     }, 1000);
   });
   // Show hidden items
